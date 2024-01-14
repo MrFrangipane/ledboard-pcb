@@ -442,7 +442,8 @@
     "pinned_symbol_libs": [
       "Frangitron",
       "MCU_RaspberryPi_and_Boards",
-      "SamacSys_Parts"
+      "SamacSys_Parts",
+      "Library"
     ]
   },
   "meta": {
@@ -476,6 +477,8 @@
       "+12V": "rgb(255, 182, 133)",
       "+3V3": "rgb(255, 148, 38)",
       "+5V": "rgb(255, 110, 149)",
+      "FP +3V3": "rgb(255, 148, 38)",
+      "FP GND": "rgb(145, 145, 145)",
       "GND": "rgb(145, 145, 145)",
       "LED1 out": "rgb(130, 43, 119)",
       "LED2 out": "rgb(63, 83, 126)",
@@ -578,6 +581,10 @@
     [
       "22ac3567-38fe-41fb-96d5-4f144cef9003",
       "LED to RS492"
+    ],
+    [
+      "757d6d50-47c9-4cb1-8547-9b2447e826a6",
+      "Receiver"
     ]
   ],
   "text_variables": {}
