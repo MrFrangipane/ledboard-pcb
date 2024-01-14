@@ -436,7 +436,8 @@
     "pinned_footprint_libs": [
       "SamacSys_Parts",
       "Frangitron",
-      "MCU_RaspberryPi_and_Boards"
+      "MCU_RaspberryPi_and_Boards",
+      "Library"
     ],
     "pinned_symbol_libs": [
       "Frangitron",
