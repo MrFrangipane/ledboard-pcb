@@ -584,7 +584,35 @@
     ],
     [
       "757d6d50-47c9-4cb1-8547-9b2447e826a6",
-      "Receiver1"
+      "Receiver 1"
+    ],
+    [
+      "c0d607bf-2e76-4853-b2ed-907dd6c894fe",
+      "Receiver 2"
+    ],
+    [
+      "45693edd-6dc6-41b8-8b1c-a9a8e5afcadf",
+      "Receiver 3"
+    ],
+    [
+      "50d6fe7a-2d25-4b6a-8e40-e76ae84b788d",
+      "Receiver 4"
+    ],
+    [
+      "62e0dde2-ad5d-4205-a74c-f24b413f3931",
+      "Receiver 5"
+    ],
+    [
+      "25bef58f-ca62-4f18-ad32-cc60a54b91e0",
+      "Receiver 6"
+    ],
+    [
+      "507a174b-d652-466e-bcdb-3655449e938c",
+      "Receiver 7"
+    ],
+    [
+      "ceb5b469-5e62-41bb-a8f0-8c2a1861cc28",
+      "Receiver 8"
     ]
   ],
   "text_variables": {}
