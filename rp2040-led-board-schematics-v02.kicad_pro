@@ -498,7 +498,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rp2040-led-board-schematics-v02.step",
       "vrml": "rp2040-led-board-schematics-v02.wrl"
     },
     "page_layout_descr_file": ""
