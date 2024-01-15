@@ -3016,7 +3016,7 @@
   (symbol (lib_id "Device:C_Small") (at 387.35 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 043436b4-cfc7-4e35-b8a3-782b1a2c4578)
-    (property "Reference" "C13" (at 387.35 160.02 0)
+    (property "Reference" "C34" (at 387.35 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 387.35 165.1 0)
@@ -3042,7 +3042,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "C13") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -3051,7 +3051,7 @@
   (symbol (lib_id "Library:mouse-bites-1x07-jlc") (at 322.58 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 084fa27c-57bf-45fd-a44a-f7a093ef1ef7)
-    (property "Reference" "H29" (at 330.2 260.35 0)
+    (property "Reference" "H27" (at 330.2 260.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 322.58 260.35 0)
@@ -3066,7 +3066,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H29") (unit 1)
+          (reference "H27") (unit 1)
         )
       )
     )
@@ -3075,7 +3075,7 @@
   (symbol (lib_id "Library:mouse-bites-1x07-jlc") (at 322.58 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093e3ce2-4edc-4246-9784-3b85da4ea0b0)
-    (property "Reference" "H30" (at 330.2 266.7 0)
+    (property "Reference" "H5" (at 330.2 266.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 322.58 266.7 0)
@@ -3090,7 +3090,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H30") (unit 1)
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -3122,7 +3122,7 @@
       )
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H3") (unit 1)
+          (reference "H13") (unit 1)
         )
       )
     )
@@ -3131,7 +3131,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 440.69 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ef55e93-c320-4f89-9df3-85277196c573)
-    (property "Reference" "H25" (at 443.23 256.54 0)
+    (property "Reference" "H1" (at 443.23 256.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 443.23 259.08 0)
@@ -3146,7 +3146,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H25") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -3215,7 +3215,7 @@
   (symbol (lib_id "Device:R_Small") (at 369.57 152.4 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1669aa45-e775-43dc-8bd8-dfa92837d932)
-    (property "Reference" "R21" (at 372.11 151.13 90)
+    (property "Reference" "R58" (at 372.11 151.13 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 364.49 151.13 90)
@@ -3241,7 +3241,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R21") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -3281,7 +3281,7 @@
     (property "Value" "Pico" (at 176.53 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH" (at 167.64 74.93 90)
+    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (at 167.64 74.93 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 167.64 74.93 0)
@@ -3341,7 +3341,7 @@
       )
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "U7") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -3350,7 +3350,7 @@
   (symbol (lib_id "Device:R_Small") (at 323.85 146.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c575390-84cf-4aa1-9b94-0b06f4bbf2f7)
-    (property "Reference" "R1" (at 322.58 144.78 0)
+    (property "Reference" "R54" (at 322.58 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 322.58 147.3169 0)
@@ -3376,7 +3376,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R1") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -3415,7 +3415,7 @@
   (symbol (lib_id "Library:mouse-bites-1x07-jlc") (at 481.33 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ca6cd21-a2c0-43e0-bcb4-9c38bd3347d8)
-    (property "Reference" "H32" (at 488.95 53.34 0)
+    (property "Reference" "H4" (at 488.95 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 481.33 53.34 0)
@@ -3430,7 +3430,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H32") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -3439,7 +3439,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 320.04 81.28 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dfb74fc-edd5-42f2-9059-383efdb77f6f)
-    (property "Reference" "J1" (at 322.58 81.28 0)
+    (property "Reference" "J5" (at 322.58 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWR_IN" (at 322.58 78.74 0)
@@ -3459,7 +3459,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3468,7 +3468,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 458.47 247.65 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e30f68a-8410-42fd-90b6-f9709e578282)
-    (property "Reference" "FM3" (at 461.01 246.38 0)
+    (property "Reference" "FM4" (at 461.01 246.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 461.01 248.92 0)
@@ -3483,7 +3483,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "FM3") (unit 1)
+          (reference "FM4") (unit 1)
         )
       )
     )
@@ -3492,7 +3492,7 @@
   (symbol (lib_id "Library:mouse-bites-1x07-jlc") (at 452.12 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2162c5fb-801e-4d4c-a26a-2cafcea8a107)
-    (property "Reference" "H33" (at 459.74 64.77 0)
+    (property "Reference" "H25" (at 459.74 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 452.12 64.77 0)
@@ -3507,7 +3507,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H33") (unit 1)
+          (reference "H25") (unit 1)
         )
       )
     )
@@ -3546,7 +3546,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 411.48 69.85 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22f9c7e5-f726-4180-9877-d3b0c3da48c5)
-    (property "Reference" "H5" (at 414.02 67.31 0)
+    (property "Reference" "H23" (at 414.02 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 414.02 69.85 0)
@@ -3562,7 +3562,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H5") (unit 1)
+          (reference "H23") (unit 1)
         )
       )
     )
@@ -3571,7 +3571,7 @@
   (symbol (lib_id "Library:mouse-bites-1x07-jlc") (at 452.12 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 245bb0a5-f626-4396-9f60-98c59eaa3672)
-    (property "Reference" "H31" (at 459.74 52.07 0)
+    (property "Reference" "H3" (at 459.74 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 452.12 52.07 0)
@@ -3586,7 +3586,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H31") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -3765,7 +3765,7 @@
   (symbol (lib_id "Device:R_Small") (at 369.57 156.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3544b61c-d867-45be-b821-e559e10efd64)
-    (property "Reference" "R22" (at 372.11 154.94 90)
+    (property "Reference" "R57" (at 372.11 154.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 364.49 154.94 90)
@@ -3791,7 +3791,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R22") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -3800,7 +3800,7 @@
   (symbol (lib_id "Device:R_Small") (at 330.2 152.4 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37c0c431-7c9c-45c7-a514-cd89b0e61376)
-    (property "Reference" "R19" (at 327.66 149.86 90)
+    (property "Reference" "R59" (at 327.66 149.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 328.93 154.94 90)
@@ -3826,7 +3826,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R19") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -3975,7 +3975,7 @@
   (symbol (lib_id "Mechanical:Fiducial") (at 440.69 247.65 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49a0fde6-ddc2-470e-9731-bd900152531b)
-    (property "Reference" "FM4" (at 443.23 246.38 0)
+    (property "Reference" "FM3" (at 443.23 246.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Fiducial" (at 443.23 248.92 0)
@@ -3990,7 +3990,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "FM4") (unit 1)
+          (reference "FM3") (unit 1)
         )
       )
     )
@@ -3999,7 +3999,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 273.05 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4acedbd5-3ff4-4b92-a80d-72e463450071)
-    (property "Reference" "JP1" (at 273.05 66.04 0)
+    (property "Reference" "JP5" (at 273.05 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12V" (at 273.05 68.58 0)
@@ -4019,7 +4019,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "JP1") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -4118,13 +4118,13 @@
   (symbol (lib_id "SamacSys_Parts:PEC16-4220F-S0024") (at 195.58 236.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54eb0c79-65a7-4ae4-90e9-127c9f5d81a2)
-    (property "Reference" "SW2" (at 198.12 240.03 90)
+    (property "Reference" "SW1" (at 198.12 240.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PEC16" (at 196.85 257.81 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "PEC164120FS0012" (at 187.96 257.81 0)
+    (property "Footprint" "SamacSys_Parts:PEC164120FS0012" (at 187.96 257.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.bourns.com/pdfs/PEC16.pdf" (at 190.5 257.81 0)
@@ -4161,7 +4161,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -4260,7 +4260,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 308.61 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65a427cf-9c09-4707-921e-34ab6c8f1f01)
-    (property "Reference" "JP2" (at 308.61 66.04 0)
+    (property "Reference" "JP10" (at 308.61 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1-2 12V" (at 308.61 68.58 0)
@@ -4281,7 +4281,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "JP2") (unit 1)
+          (reference "JP10") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 495.3 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f31fb74-1ed7-4f40-b521-563a2143a9b5)
-    (property "Reference" "J5" (at 494.03 166.37 0)
+    (property "Reference" "J9" (at 494.03 166.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FrontPanel" (at 494.03 163.83 0)
@@ -4408,7 +4408,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "J5") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -4417,7 +4417,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 420.37 69.85 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7175bebb-e765-4952-9bbd-45ed88093866)
-    (property "Reference" "H4" (at 422.91 67.31 0)
+    (property "Reference" "H22" (at 422.91 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 422.91 69.85 0)
@@ -4433,7 +4433,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H4") (unit 1)
+          (reference "H22") (unit 1)
         )
       )
     )
@@ -4528,7 +4528,7 @@
       )
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "C2") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -4542,7 +4542,7 @@
   (symbol (lib_id "Library:mouse-bites-1x07-jlc") (at 478.79 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eba63e9-7957-48a7-9636-2d0cd141ea37)
-    (property "Reference" "H34" (at 486.41 63.5 0)
+    (property "Reference" "H26" (at 486.41 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 478.79 63.5 0)
@@ -4557,7 +4557,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H34") (unit 1)
+          (reference "H26") (unit 1)
         )
       )
     )
@@ -4596,7 +4596,7 @@
   (symbol (lib_id "Device:R_Small") (at 387.35 146.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cad5450-e920-4a54-b9aa-d2c23d8c9d03)
-    (property "Reference" "R25" (at 386.08 144.78 0)
+    (property "Reference" "R53" (at 386.08 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 386.08 147.3169 0)
@@ -4622,7 +4622,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R25") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -4661,7 +4661,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 392.43 69.85 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91af7809-150b-4c4a-9ab3-2813ef3937d4)
-    (property "Reference" "H1" (at 394.97 67.31 0)
+    (property "Reference" "H10" (at 394.97 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 394.97 69.85 0)
@@ -4677,7 +4677,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H1") (unit 1)
+          (reference "H10") (unit 1)
         )
       )
     )
@@ -4686,7 +4686,7 @@
   (symbol (lib_id "Device:C_Small") (at 439.42 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 934b9396-7a86-40a2-9f52-969ddbc97579)
-    (property "Reference" "C22" (at 444.5 157.48 0)
+    (property "Reference" "C36" (at 444.5 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 445.77 162.56 0)
@@ -4712,7 +4712,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "C22") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -4746,7 +4746,7 @@
   (symbol (lib_id "Device:R_Small") (at 433.07 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bc8bf3f-86c7-4094-9cb4-960d1182b1b3)
-    (property "Reference" "R20" (at 430.53 152.4 90)
+    (property "Reference" "R55" (at 430.53 152.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 430.53 157.48 90)
@@ -4772,7 +4772,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R20") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -4781,7 +4781,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 354.33 265.43 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c371400-b23c-4be0-bbca-ca52d49c3f66)
-    (property "Reference" "H8" (at 356.87 262.89 0)
+    (property "Reference" "H12" (at 356.87 262.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 356.87 265.43 0)
@@ -4797,7 +4797,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H8") (unit 1)
+          (reference "H12") (unit 1)
         )
       )
     )
@@ -4831,7 +4831,7 @@
   (symbol (lib_id "Switch:SW_MEC_5E") (at 140.97 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ffb15a4-c3bd-4950-85ec-f2bc9d1b8012)
-    (property "Reference" "SW1" (at 143.51 241.3 0)
+    (property "Reference" "SW2" (at 143.51 241.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Button" (at 143.51 243.84 0)
@@ -4850,7 +4850,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -4974,7 +4974,7 @@
   (symbol (lib_id "Device:C_Small") (at 323.85 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8ba6c29-018e-43a7-b4c4-c094648bee5f)
-    (property "Reference" "C11" (at 323.85 160.02 0)
+    (property "Reference" "C35" (at 323.85 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 323.85 165.1 0)
@@ -5000,7 +5000,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "C11") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -5032,7 +5032,7 @@
       )
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H6") (unit 1)
+          (reference "H42") (unit 1)
         )
       )
     )
@@ -5041,7 +5041,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 280.67 254 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0645a11-2dd0-4349-ba37-ef672a26fb03)
-    (property "Reference" "J13" (at 279.4 242.57 0)
+    (property "Reference" "J27" (at 279.4 242.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MainBoard" (at 279.4 245.11 0)
@@ -5069,7 +5069,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "J13") (unit 1)
+          (reference "J27") (unit 1)
         )
       )
     )
@@ -5163,7 +5163,7 @@
     (property "Value" "ENC28J60" (at 83.82 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Frangitron:ENC28J60_module" (at 74.93 74.93 0)
+    (property "Footprint" "Library:ENC28J60-SPI-Ethernet-Module" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 74.93 74.93 0)
@@ -5190,7 +5190,7 @@
       )
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "U12") (unit 1)
+          (reference "U27") (unit 1)
         )
       )
     )
@@ -5289,7 +5289,7 @@
     (property "Value" "NHD-0216AW-IB3" (at 68.58 233.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "NHD0216AWIB3" (at 87.63 233.68 0)
+    (property "Footprint" "Frangitron:NewHaven-OLED-NHD-0216AW-IB3" (at 87.63 233.68 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.newhavendisplay.com/specs/NHD-0216AW-IB3.pdf" (at 85.09 233.68 0)
@@ -5335,7 +5335,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 364.49 265.43 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c23aef2a-1168-4791-8952-38bb2ca110a5)
-    (property "Reference" "H9" (at 367.03 262.89 0)
+    (property "Reference" "H24" (at 367.03 262.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 367.03 265.43 0)
@@ -5351,7 +5351,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H9") (unit 1)
+          (reference "H24") (unit 1)
         )
       )
     )
@@ -5360,7 +5360,7 @@
   (symbol (lib_id "Device:R_Small") (at 378.46 146.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3d044f4-acc8-46d7-ba88-809bb3456d17)
-    (property "Reference" "R24" (at 377.19 144.78 0)
+    (property "Reference" "R52" (at 377.19 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 377.19 147.3169 0)
@@ -5386,7 +5386,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R24") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
@@ -5540,7 +5540,7 @@
   (symbol (lib_id "Device:R_Small") (at 439.42 146.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d18237f5-4cc6-4121-ad68-b25bbcc6ac3d)
-    (property "Reference" "R23" (at 444.5 144.78 0)
+    (property "Reference" "R56" (at 444.5 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 444.5 147.3169 0)
@@ -5566,7 +5566,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "R23") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -5575,7 +5575,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 440.69 267.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5f08ab5-7af4-4c39-b949-9fab7d66687d)
-    (property "Reference" "H27" (at 443.23 266.7 0)
+    (property "Reference" "H33" (at 443.23 266.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 443.23 269.24 0)
@@ -5590,7 +5590,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H27") (unit 1)
+          (reference "H33") (unit 1)
         )
       )
     )
@@ -5684,7 +5684,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 440.69 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4d4eec8-4202-4222-82cb-9f44701e3603)
-    (property "Reference" "H26" (at 443.23 261.62 0)
+    (property "Reference" "H32" (at 443.23 261.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 443.23 264.16 0)
@@ -5699,7 +5699,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H26") (unit 1)
+          (reference "H32") (unit 1)
         )
       )
     )
@@ -5708,7 +5708,7 @@
   (symbol (lib_id "Regulator_Linear:LM7805_TO220") (at 248.92 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9aa21b7-17ad-4925-900f-5dab587d7e26)
-    (property "Reference" "U1" (at 248.92 66.04 0)
+    (property "Reference" "U5" (at 248.92 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM7805" (at 248.92 68.58 0)
@@ -5729,7 +5729,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -5769,7 +5769,7 @@
       )
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "C1") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -5893,7 +5893,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 440.69 273.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f63355ec-b589-4890-b952-e782e4756509)
-    (property "Reference" "H28" (at 443.23 271.78 0)
+    (property "Reference" "H2" (at 443.23 271.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 443.23 274.32 0)
@@ -5908,7 +5908,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H28") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -5917,7 +5917,7 @@
   (symbol (lib_id "Device:C_Small") (at 378.46 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f70e79e9-94be-40ec-879d-bac230bfd513)
-    (property "Reference" "C12" (at 378.46 160.02 0)
+    (property "Reference" "C33" (at 378.46 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 378.46 165.1 0)
@@ -5943,7 +5943,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "C12") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -5982,7 +5982,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 401.32 69.85 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f98b1fb3-f8bd-4919-a29d-d7ef5602de00)
-    (property "Reference" "H2" (at 403.86 67.31 0)
+    (property "Reference" "H11" (at 403.86 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 403.86 69.85 0)
@@ -5998,7 +5998,7 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31"
-          (reference "H2") (unit 1)
+          (reference "H11") (unit 1)
         )
       )
     )
