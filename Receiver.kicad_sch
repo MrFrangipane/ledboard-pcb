@@ -1830,7 +1830,7 @@
   (symbol (lib_id "Device:C_Small") (at 134.62 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b12f0118-84b5-47c9-9ee3-1e5388c4eaf9)
-    (property "Reference" "C19" (at 137.16 88.9063 0)
+    (property "Reference" "C47" (at 137.16 88.9063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 137.16 91.4463 0)
@@ -1856,28 +1856,28 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/757d6d50-47c9-4cb1-8547-9b2447e826a6"
-          (reference "C19") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/c0d607bf-2e76-4853-b2ed-907dd6c894fe"
-          (reference "C21") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/45693edd-6dc6-41b8-8b1c-a9a8e5afcadf"
-          (reference "C23") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/50d6fe7a-2d25-4b6a-8e40-e76ae84b788d"
-          (reference "C25") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/62e0dde2-ad5d-4205-a74c-f24b413f3931"
           (reference "C47") (unit 1)
         )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/c0d607bf-2e76-4853-b2ed-907dd6c894fe"
+          (reference "C19") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/45693edd-6dc6-41b8-8b1c-a9a8e5afcadf"
+          (reference "C50") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/50d6fe7a-2d25-4b6a-8e40-e76ae84b788d"
+          (reference "C21") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/62e0dde2-ad5d-4205-a74c-f24b413f3931"
+          (reference "C52") (unit 1)
+        )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/25bef58f-ca62-4f18-ad32-cc60a54b91e0"
-          (reference "C49") (unit 1)
+          (reference "C24") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/507a174b-d652-466e-bcdb-3655449e938c"
-          (reference "C51") (unit 1)
+          (reference "C53") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/ceb5b469-5e62-41bb-a8f0-8c2a1861cc28"
-          (reference "C53") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2148,7 +2148,7 @@
   (symbol (lib_id "Device:C_Small") (at 121.92 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d11a36e0-5e44-44ab-9c13-ed4b6d197c84)
-    (property "Reference" "C16" (at 124.46 88.9063 0)
+    (property "Reference" "C48" (at 124.46 88.9063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 124.46 91.4463 0)
@@ -2174,28 +2174,28 @@
     (instances
       (project "rp2040-led-board-schematics-v02"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/757d6d50-47c9-4cb1-8547-9b2447e826a6"
-          (reference "C16") (unit 1)
+          (reference "C48") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/c0d607bf-2e76-4853-b2ed-907dd6c894fe"
           (reference "C20") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/45693edd-6dc6-41b8-8b1c-a9a8e5afcadf"
-          (reference "C22") (unit 1)
+          (reference "C49") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/50d6fe7a-2d25-4b6a-8e40-e76ae84b788d"
-          (reference "C24") (unit 1)
+          (reference "C22") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/62e0dde2-ad5d-4205-a74c-f24b413f3931"
-          (reference "C26") (unit 1)
+          (reference "C51") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/25bef58f-ca62-4f18-ad32-cc60a54b91e0"
-          (reference "C48") (unit 1)
+          (reference "C23") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/507a174b-d652-466e-bcdb-3655449e938c"
-          (reference "C50") (unit 1)
+          (reference "C54") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/ceb5b469-5e62-41bb-a8f0-8c2a1861cc28"
-          (reference "C52") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
