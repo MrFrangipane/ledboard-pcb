@@ -447,7 +447,7 @@
     ]
   },
   "meta": {
-    "filename": "rp2040-led-board-schematics-v02.kicad_pro",
+    "filename": "rp2040-led-board-schematics-v01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -557,35 +557,35 @@
     ],
     [
       "9f0331c1-c890-49fe-854b-b2c519d824a0",
-      "LED to RS485 1"
+      "Transmitter 1"
     ],
     [
       "aa4eca76-b142-4b0b-9288-79391c3c9fb8",
-      "LED to RS485 2"
+      "Transmitter 2"
     ],
     [
       "824d8fc7-5b56-40c3-8346-df4e29e819c4",
-      "LED to RS485 3"
+      "Transmitter 3"
     ],
     [
       "82428978-e7cf-4c7d-9fe7-980c7f65e4e0",
-      "LED to RS485 4"
+      "Transmitter 4"
     ],
     [
       "f3c15741-12d1-4fc1-b820-9ccaf5fe40f7",
-      "LED to RS485 5"
+      "Transmitter 5"
     ],
     [
       "cafd3b19-1acf-4647-a5b2-c90cc88e6d13",
-      "LED to RS485 6"
+      "Transmitter 6"
     ],
     [
       "4ed67023-a14b-4c79-a6d5-cb32db424c60",
-      "LED to RS485 7"
+      "Transmitter 7"
     ],
     [
       "22ac3567-38fe-41fb-96d5-4f144cef9003",
-      "LED to RS485 8"
+      "Transmitter 8"
     ],
     [
       "757d6d50-47c9-4cb1-8547-9b2447e826a6",

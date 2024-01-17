@@ -626,7 +626,7 @@
     (uuid 28bd29cf-8325-413d-a744-2a9abcf08a3a)
   )
 
-  (text "LED (SK6812) transmitter (RS485)" (at 111.76 76.2 0)
+  (text "Transmitter" (at 111.76 76.2 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0be3a22f-9f4c-4a01-aed3-ea8e0b389aa8)
   )
@@ -697,7 +697,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "C5") (unit 1)
         )
@@ -710,17 +710,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "C17") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "C27") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "C37") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "C42") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "C45") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "C42") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "C37") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "C27") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -753,7 +753,7 @@
     (pin "2" (uuid 4c611ea3-0b3a-45b4-a27d-e745b8964099))
     (pin "3" (uuid 76a02112-bcf6-4aee-a4c6-c8819b9d0db5))
     (instances
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "J6") (unit 1)
         )
@@ -766,17 +766,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "J10") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "J19") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "J22") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "J20") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "J21") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "J20") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "J22") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -814,7 +814,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "R2") (unit 1)
         )
@@ -827,17 +827,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "R24") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "R45") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "R50") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "R67") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "R69") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "R67") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "R50") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "R45") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -880,7 +880,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "C4") (unit 1)
         )
@@ -893,17 +893,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "C18") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "C28") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "C46") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "C43") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "C44") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "C43") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "C46") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "C28") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -946,7 +946,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "R7") (unit 1)
         )
@@ -959,17 +959,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "R25") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "R49") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "R70") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "R66") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "R68") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "R66") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "R70") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "R49") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -1012,7 +1012,7 @@
           (reference "R8") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "R1") (unit 1)
         )
@@ -1025,17 +1025,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "R42") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "R46") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "R51") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "R62") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "R65") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "R62") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "R51") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "R46") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -1078,7 +1078,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "R3") (unit 1)
         )
@@ -1091,17 +1091,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "R44") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "R48") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "R72") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "R60") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "R64") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "R60") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "R72") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "R48") (unit 1)
         )
       )
       (project "electronics_v03---smt"
@@ -1144,7 +1144,7 @@
           (reference "U4") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "U6") (unit 1)
         )
@@ -1157,17 +1157,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "U13") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "U15") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "U16") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "U21") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "U22") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "U21") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "U16") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -1205,7 +1205,7 @@
           (reference "R9") (unit 1)
         )
       )
-      (project "rp2040-led-board-schematics-v02"
+      (project "rp2040-led-board-schematics-v01"
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/9f0331c1-c890-49fe-854b-b2c519d824a0"
           (reference "R4") (unit 1)
         )
@@ -1218,17 +1218,17 @@
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/82428978-e7cf-4c7d-9fe7-980c7f65e4e0"
           (reference "R43") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
-          (reference "R47") (unit 1)
-        )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
-          (reference "R71") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
+          (reference "R61") (unit 1)
         )
         (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/4ed67023-a14b-4c79-a6d5-cb32db424c60"
           (reference "R63") (unit 1)
         )
-        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/22ac3567-38fe-41fb-96d5-4f144cef9003"
-          (reference "R61") (unit 1)
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/cafd3b19-1acf-4647-a5b2-c90cc88e6d13"
+          (reference "R71") (unit 1)
+        )
+        (path "/c1a38541-3f06-4b3b-ba3a-decae3ac3c31/f3c15741-12d1-4fc1-b820-9ccaf5fe40f7"
+          (reference "R47") (unit 1)
         )
       )
       (project "electronics_v03---smt"
