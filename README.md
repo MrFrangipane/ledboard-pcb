@@ -25,3 +25,49 @@ RS485 to LED strip
 ![](rp2040-led-board-schematics-v01-Transmitter.svg)
 
 ![](rp2040-led-board-schematics-v01-Receiver.svg)
+
+## Gerbers
+
+- Edge Cuts
+
+![](gerbers/rp2040-led-board-schematics-v01-Edge_Cuts.svg)
+
+- F Cu
+
+![](gerbers/rp2040-led-board-schematics-v01-F_Cu.svg)
+
+- In1 Cu
+
+![](gerbers/rp2040-led-board-schematics-v01-In1_Cu.svg)
+
+- In2 Cu
+
+![](gerbers/rp2040-led-board-schematics-v01-In2_Cu.svg)
+
+- B Cu
+
+![](gerbers/rp2040-led-board-schematics-v01-B_Cu.svg)
+
+- F Silkscreen
+
+![](gerbers/rp2040-led-board-schematics-v01-F_Silkscreen.svg)
+
+- B Silkscreen
+
+![](gerbers/rp2040-led-board-schematics-v01-B_Silkscreen.svg)
+
+- F Paste
+
+![](gerbers/rp2040-led-board-schematics-v01-F_Paste.svg)
+
+- B Paste
+
+![](gerbers/rp2040-led-board-schematics-v01-B_Paste.svg)
+
+- F Mask
+
+![](gerbers/rp2040-led-board-schematics-v01-F_Mask.svg)
+
+- B Mask
+
+![](gerbers/rp2040-led-board-schematics-v01-B_Mask.svg)
