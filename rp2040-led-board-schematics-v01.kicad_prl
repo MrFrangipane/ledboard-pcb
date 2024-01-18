@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "00290aa_80000007",
+    "visible_layers": "00290ba_80000007",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "rp2040-led-board-schematics-v02.kicad_prl",
+    "filename": "rp2040-led-board-schematics-v01.kicad_prl",
     "version": 3
   },
   "project": {
