@@ -2,6 +2,12 @@
 
 v1 January 2024
 
+This project works with
+- [LED Board - Firmware minimal](https://github.com/MrFrangipane/ledboard-firmware-minimal)
+- [LED Board - Desktop minimal](https://github.com/MrFrangipane/ledboard-desktop-minimal)
+- [LED Board - Firmware full](https://github.com/MrFrangipane/ledboard-firmware-full)
+- [LED Board - Desktop full](https://github.com/MrFrangipane/ledboard-desktop-full)
+
 ## Main board
 
 ArtNet to LED strips (x8 RS485 transmitters)
